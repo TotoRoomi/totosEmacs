@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Specify the source file and destination directory
+new=".doom.d"
+destination_directory="~/.doom.d"
+
+original="~/.doom.d"
+bakup="~/.doom.d.bk"
+
+# Copy the file to the destination directory
+mv original bakup
+cp "$new" "$original" &&
+
+# Run your desired command (replace "your_command" with the actual command you want to run)
+
+# doom sync and doctor
+doom="~/.emacs.d/bin/doom"
+
+# Use the eval command to expand the ~ symbol
+rundoom=$(eval echo "$doom")
+
+"rundoom" sync 
+"rundoom" doctor
+echo "if the output looks ok then run: rm -r .doom.d.bk"
