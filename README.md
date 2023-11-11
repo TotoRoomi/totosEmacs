@@ -11,4 +11,4 @@
 
 
 May need to install nerd fonts and specifically Lilex. 
-If font error persists, try renaming the font in config.el from ```"Lilex"``` to ```Lilex Nerd Font```. 
+If font error persists, try renaming the font in config.el from ```"Lilex"``` to ```"Lilex Nerd Font"```. 
