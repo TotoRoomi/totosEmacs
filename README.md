@@ -1,4 +1,5 @@
 # My doom emacs config
+## Branches: Main | Linux 
 
 ### if you're on mac run: 
 ```sh install.sh```
