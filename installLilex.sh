@@ -3,5 +3,5 @@
 fl="~/.local/share/fonts/"
 fontlocation= $(eval echo "$fl")
 
-mkdir -p "$fontlocation"
-cp -r "Lilex/*.ttf" "$fontlocation"
+mkdir -p "$fl"
+cp -r "Lilex/*.ttf" "$fl"
