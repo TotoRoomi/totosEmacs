@@ -1,4 +1,5 @@
 # My doom emacs config
+## Linux variant
 
 ### if you're on mac run: 
 ```sh install.sh```
@@ -11,4 +12,6 @@
 
 
 May need to install nerd fonts and specifically Lilex. 
-If font error persists, try renaming the font in config.el from ```"Lilex"``` to ```"Lilex Nerd Font"```. 
+To do this run the *installLilex.sh* script. 
+
+If font error persists, try checking what the font is called by typing ```fc-list | grep Lilex``` in the terminal and then renaming it in the *config.el* to whatever is written there. 
