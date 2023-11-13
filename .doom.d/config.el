@@ -22,7 +22,7 @@
 ;; accept. For example:
  ;;(setq doom-font (font-spec :family "Fira Code" :size 13 :weight 'regular))
 ;;
-(setq doom-font (font-spec :family "Lilex" :size 17 :weight 'normal))
+(setq doom-font (font-spec :family "Lilex Nerd Font" :size 17 :weight 'normal))
 
 ;VALUE specifies the weight of the font to use.  It must be one of the
 ;symbols ultra-bold, extra-bold, bold, semi-bold, normal,
